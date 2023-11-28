@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.list-item {
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  padding: 15px;
+  width: 38%;
+  font-family: 'Roboto';
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.title-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #171f46;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.star-button {
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+}
+
+.star-image {
+  height: 30px;
+  width: 30px;
+}
+
+.date {
+  color: #b5b7c4;
+  font-weight: 500;
+}

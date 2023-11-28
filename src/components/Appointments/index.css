@@ -1,0 +1,111 @@
+/* Write your CSS here */
+.app-container {
+  font-family: 'Roboto';
+}
+
+.main-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 90%;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.application-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-1 {
+  color: #171f46;
+  font-size: 40px;
+}
+
+.label {
+  color: #b5b7c4;
+  font-weight: 500;
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.input {
+  border: 1px solid #b5b7c4;
+  border-radius: 4px;
+  height: 30px;
+  padding: 10px;
+  outline: none;
+}
+
+.add-button {
+  width: 60px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.appointments-image {
+}
+
+.line {
+  border: 1px solid #b5b7c4;
+}
+
+.heading-filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-2 {
+  color: #171f46;
+  font-size: 25px;
+  padding-left: 43px;
+}
+
+.filter-style {
+  border-width: 1px;
+  border-radius: 15px;
+  width: 80px;
+  height: 25px;
+  font-weight: 500;
+  outline: none;
+}
+
+.filter-filled {
+  color: #ffffff;
+
+  background-color: #9897f0;
+  border: none;
+}
+
+.filter-empty {
+  color: #9897f0;
+  border: 1px solid #9897f0;
+  background-color: transparent;
+}
+
+.appointments-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
